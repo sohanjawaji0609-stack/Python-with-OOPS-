@@ -1,14 +1,17 @@
-class father:
-    def work(self):
-        print("father working in it")
-class mother:
-    def cook(self):
-        print("mother cooking food")
-class child(father,mother):
-    def study(self):
-        print("child studying book")
+class animal:
+    def eat(self):
+        print("animal eat")
+class mammual(animal):
+    def sleap(self):
+        print("mammual sleap")
+class Dog(mammual):
+    def sound(self):
+        print("Dog sound")
         
-c=child()
-c.cook()
-c.work()
-c.study()
+a=animal()
+m=mammual()
+d=Dog()
+
+d.eat()
+d.sleap()
+m.eat()
