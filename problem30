@@ -1,0 +1,16 @@
+class Employee:
+    Employee_ID=228225733203
+    Name="Anusha"
+    Basic_Salary=20000
+    
+    def Total_salary(self):
+        HRA=self.Basic_Salary*0.2
+        DA=self.Basic_Salary*0.1
+        Total_Salary=self.Basic_Salary+HRA+DA
+        print("Total_Salary:",Total_Salary)
+        print("Employee_ID:",self.Employee_ID)
+        print("Name:",self.Name)
+        print("Basic_Salary:",self.Basic_Salary)
+        
+e=Employee()
+e.Total_salary()
