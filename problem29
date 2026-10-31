@@ -1,0 +1,22 @@
+class BankAccount:
+    Account_holder="sohan"
+    Account_number=228225733236
+    Balance=10000
+    
+    def Deposit(self,amount,Total_Balance):
+        amount=5000
+        Total_Balance=amount+self.Balance
+        print(Total_Balance)
+    def Withdraw(self,amount):
+        amount=1000
+        print(amount)
+    def Display_Balance(self):
+        if self.Balance==0 :
+            print("Insufficient")
+        else:
+            print(self.Balance)
+             
+a=BankAccount()
+a.Deposit(5000,10000)
+a.Withdraw(1000)
+a.Display_Balance()
