@@ -1,0 +1,15 @@
+class Calculator:
+
+    def add(self, a, b):
+        print("Add =", a + b)
+
+    def sub(self, a, b):
+        print("Sub =", a - b)
+
+    def multiply(self, a, b):
+        print("Multiply =", a * b)
+
+c = Calculator()
+c.add(10, 5)
+c.sub(10, 5)
+c.multiply(10, 5)
