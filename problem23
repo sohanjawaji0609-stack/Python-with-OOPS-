@@ -1,0 +1,6 @@
+class vehicle:
+    _name1="BMW"
+    _name2="kIA"
+v=vehicle()
+print(v._name1)
+print(v._name2)
