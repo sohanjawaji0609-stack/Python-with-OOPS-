@@ -1,0 +1,11 @@
+class Rectangle:
+    def area(self, length, breadth):
+        print("Area =", length * breadth)
+
+    def parameter(self, length, breadth):
+        print("Parameter =", 2 * (length + breadth))
+
+rec = Rectangle()
+
+rec.area(5, 6)
+rec.parameter(5, 6)
