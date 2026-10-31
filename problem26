@@ -1,0 +1,31 @@
+class Book:
+    BOOK_ID = 221412
+    Book_name = "Mathematics"
+    Author = "Dr. M.V.S Prasad"
+    Availability = "Yes"
+
+    def Display_Book(self):
+        print("Book Name:", self.Book_name)
+        print("Book ID:", self.BOOK_ID)
+        print("Author:", self.Author)
+        print("Availability:", self.Availability)
+
+    def Issue_Book(self):
+        if self.Availability == "Yes":
+            self.Availability = "No"
+            print("Book issued successfully")
+        else:
+            print("Book is not available")
+
+    def Return_Book(self):
+        self.Availability = "Yes"
+        print("Book is returned successfully")
+
+
+B = Book()
+
+B.Display_Book()
+B.Issue_Book()
+B.Display_Book()
+B.Return_Book()
+B.Display_Book()
